@@ -7,7 +7,7 @@ namespace todoruben.Functions.Entities
 {
     public class TodoEntity : TableEntity
     {
-        public DateTime CreatedTme { get; set; }
+        public DateTime CreatedTime { get; set; }
 
         public string TaskDescription { get; set; }
 
